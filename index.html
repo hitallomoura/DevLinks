@@ -6,17 +6,18 @@
     <title>DevLinks</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
 </head>
-<body class="light">
+<body>
     <div id="container">
         <div id="profile">
             <img src="assets/avatar.png" alt="Foto de Perfil">
             <p>@maykbrito</p>
         </div>
         <div id="switch">
-            <button></button>
+            <button onclick="toogleMode()"></button>
             <span></span>
         </div>
         <ul>
@@ -26,16 +27,16 @@
             <li><a href="#" target="_blank">Link Aqui</a></li>
         </ul>
         <div id="social-links">
-            <a href="#">
+            <a href="#" target="_blank">
                 <ion-icon name="logo-github"></ion-icon>
             </a>
-            <a href="#">
+            <a href="#" target="_blank">
                 <ion-icon name="logo-instagram"></ion-icon>
             </a>
-            <a href="#">
+            <a href="#" target="_blank">
                 <ion-icon name="logo-youtube"></ion-icon>
             </a>
-            <a href="#">
+            <a href="#" target="_blank">
                 <ion-icon name="logo-linkedin"></ion-icon>
             </a>
         </div>
@@ -43,6 +44,7 @@
             <p>Feito com ♥ pela Rocketseat</p>
         </footer>
     </div>
+    <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
