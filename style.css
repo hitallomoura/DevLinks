@@ -10,5 +10,12 @@
 
 body {
     min-height: 100vh;
-    background: var(--bg-image) no-repeat center/cover;
+    background: var(--bg-image) no-repeat top center/cover;
+}
+
+#container {
+    width: 100%;
+    max-width: 588px;
+    margin: 56px auto 0;
+    padding: 0 24px;
 }
