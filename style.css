@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-image: url(./assets/bg-mobile.jpg)
+}
+
+body {
+    min-height: 100vh;
+    background: var(--bg-image) no-repeat center/cover;
+}
