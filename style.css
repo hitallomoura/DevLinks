@@ -37,7 +37,7 @@ body {
 #container {
     width: 100%;
     max-width: 588px;
-    margin: 56px auto 0;
+    margin: 0 auto;
     padding: 0 24px;
 }
 
@@ -128,7 +128,7 @@ ul li a:hover {
     display: flex;
     justify-content: center;
     padding: 24px 0;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 #social-links a {
@@ -144,6 +144,15 @@ ul li a:hover {
 #social-links a:hover {
     background: var(--highlight-color);
 }
+
+/* Estilizando o footer */
+footer {
+    padding: 24px 0;
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+/* Media queries */
 
 @keyframes slide-right {
     from {
@@ -162,3 +171,16 @@ ul li a:hover {
         left: 0;
     }
 }
+
+/* Responsividade */
+
+@media (min-width: 700px) {
+    :root {
+        --bg-url: url(./assets/bg-desktop.jpg);
+    }
+
+    .light {
+        --bg-url: url(./assets/bg-desktop-light.jpg);
+    }
+}
+
