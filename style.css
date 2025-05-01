@@ -28,7 +28,9 @@
 }
 
 body {
-    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    height: 100vh;
     background: var(--bg-url) no-repeat top center/cover;
     color: var(--text-color);
     font-family: "Inter", sans-serif;
@@ -37,7 +39,6 @@ body {
 #container {
     width: 100%;
     max-width: 588px;
-    margin: 0 auto;
     padding: 0 24px;
 }
 
@@ -120,7 +121,7 @@ ul li a {
 
 ul li a:hover {
     background: var(--surface-color-hover);
-    border: 1.5px solid var(--stroke-color);
+    border: 1.5px solid var(--text-color);
 }
 
 /* Estilizando social-links */
